@@ -1,0 +1,88 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(247, 247, 247);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-button {
+  background-color: rgb(73, 73, 255);
+  color: white;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.blue-button:hover {
+  background-color: rgb(105, 105, 252);
+}
+
+.wrapper {
+  display: flex;
+}
+
+.form-input {
+  padding: 10px;
+  border-radius: 0;
+  border: 2px solid rgb(73, 73, 255);
+}
+
+.form-input::placeholder {
+  color: black
+}
+
+.form-input:focus-visible {
+  outline: none;
+}
+
+.columns {
+  display: flex;
+  flex-direction: column;
+}
+
+.question {
+  border-left: 4px solid rgb(73, 73, 255);
+  padding: 10px;
+  background-color: rgb(216, 216, 216);
+  margin-bottom: 10px;
+}
+
+.answer {
+  border-left: 4px solid rgb(73, 73, 255);
+  background-color: rgb(252, 252, 174);
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.blue-button-border {
+  text-align: center;
+  background-color: rgb(73, 73, 255);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.blue-button-border:hover {
+  background-color: rgb(105, 105, 252);
+}
+
+.text-center {
+  text-align: center;
+}
